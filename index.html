@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CALCA Indumentaria | TechGame27</title>
+
+    <meta name="description"
+        content="Indumentaria deportiva premium. Camisetas, camperas, conjuntos, buzos y mucho más.">
+
+    <meta name="theme-color" content="#0066ff">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/logos/logo.png" alt="CALCA Indumentaria">
+            </a>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tecnologia.html">Tecnología</a></li>
+            <li><a href="calca.html">CALCA</a></li>
+            <li><a href="envios.html">Envíos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li>
+                <a href="#">
+                    🛒 <span id="contadorCarrito">0</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="menu-mobile">☰</div>
+
+    </nav>
+
+</header>
+
+<!-- HERO -->
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>CALCA Indumentaria</h1>
+
+        <p>Pasión • Estilo • Identidad Deportiva</p>
+
+        <div class="hero-buttons">
+
+            <a href="#productos" class="btn">Ver Colección</a>
+
+            <a href="contacto.html" class="btn btn-outline">Contactanos</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- 🔥 SLIDER (FUERA DEL HERO, CORRECTO) -->
+<section class="slider">
+
+    <div class="slide">
+        <img src="assets/slider/slide1.jpg" alt="CALCA 1">
+    </div>
+
+    <div class="slide">
+        <img src="assets/slider/slide2.jpg" alt="CALCA 2">
+    </div>
+
+    <div class="slide">
+        <img src="assets/slider/slide3.jpg" alt="CALCA 3">
+    </div>
+
+    <button class="prev">‹</button>
+    <button class="next">›</button>
+
+    <div class="dots"></div>
+
+</section>
+
+<!-- PRODUCTOS -->
+<section id="productos">
+
+    <h2>Nuestra Colección</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="assets/indumentaria/camisetas.jpg" alt="Camisetas">
+            <h3>Camisetas</h3>
+            <button onclick="agregar('camisetas', 45000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="assets/indumentaria/conjuntos.jpg" alt="Conjuntos">
+            <h3>Conjuntos</h3>
+            <button onclick="agregar('conjuntos', 55000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="assets/indumentaria/camperas.jpg" alt="Camperas">
+            <h3>Camperas</h3>
+            <button onclick="agregar('camperas', 65000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="assets/indumentaria/buzos.jpg" alt="Buzos">
+            <h3>Buzos</h3>
+            <button onclick="agregar('buzos', 55000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="assets/indumentaria/remeras.jpg" alt="Remeras">
+            <h3>Remeras</h3>
+            <button onclick="agregar('remeras', 15000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="assets/indumentaria/novedades.jpg" alt="Novedades">
+            <h3>Novedades</h3>
+            <button onclick="agregar('novedades', 00000)" class="btn"Agregar al carrito</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- BENEFICIOS -->
+<section class="beneficios">
+
+    <h2>¿Por qué elegir CALCA?</h2>
+
+    <div class="reviews">
+
+        <div class="review">
+            <h3>✅ Calidad Premium</h3>
+            <p>Trabajamos con prendas de excelente calidad y terminaciones profesionales.</p>
+        </div>
+
+        <div class="review">
+            <h3>🚚 Envíos a todo el país</h3>
+            <p>Despachamos tus pedidos de forma rápida y segura.</p>
+        </div>
+
+        <div class="review">
+            <h3>⭐ Atención Personalizada</h3>
+            <p>Te asesoramos por WhatsApp para ayudarte a elegir el producto ideal.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- MARCAS -->
+<section class="marcas">
+
+    <h2>Trabajamos con las mejores marcas</h2>
+
+    <div class="brand-list">
+
+        <span>Nike</span>
+        <span>Adidas</span>
+        <span>Puma</span>
+        <span>Topper</span>
+        <span>Reebok</span>
+        <span>Under Armour</span>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer">
+
+        <img src="assets/logos/logo2.png" alt="Logo TechGame27">
+
+        <h3>CALCA Indumentaria</h3>
+
+        <p>Pasión • Estilo • Identidad</p>
+
+        <div class="social">
+
+            <a href="#">Instagram</a>
+            <a href="#">WhatsApp</a>
+            <a href="#">Facebook</a>
+
+        </div>
+
+        <p>© 2026 TechGame27 + CALCA Indumentaria</p>
+
+    </div>
+
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/scroll.js"></script>
+
+</body>
+</html>

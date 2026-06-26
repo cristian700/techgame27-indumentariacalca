@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CALCA Indumentaria | TechGame27</title>
+
+    <meta name="description" content="Indumentaria deportiva premium. Camisetas, camperas, conjuntos y más.">
+
+    <meta name="theme-color" content="#0066ff">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/logos/logo.png" alt="CALCA">
+            </a>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="calca.html">Indumentaria</a></li>
+            <li><a href="tecnologia.html">Tecnología</a></li>
+            <li><a href="carrito.html">Carrito 🛒</a></li>
+        </ul>
+
+        <div class="menu-mobile">☰</div>
+
+    </nav>
+
+</header>
+
+<!-- HERO -->
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>CALCA Indumentaria</h1>
+
+        <p>Pasión • Estilo • Identidad deportiva</p>
+
+    </div>
+
+</section>
+
+<!-- PRODUCTOS -->
+<section id="productos">
+
+    <h2>Nuestra Colección</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Camisetas Retro</h3>
+            <p>$30.000</p>
+            <button onclick="agregar('Camisetas Retro', 30000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Camisetas Nuevas</h3>
+            <p>$40.000</p>
+            <button onclick="agregar('Camisetas Nuevas', 40000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Camisetas Nacionales Manga Larga</h3>
+            <p>$45.000</p>
+            <button onclick="agregar('Camisetas Nacionales ML', 45000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Camiseta Manga Larga Tailandesa</h3>
+            <p>$52.000</p>
+            <button onclick="agregar('Camiseta Tailandesa ML', 52000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Camiseta de Entrenamiento</h3>
+            <p>$42.000</p>
+            <button onclick="agregar('Camiseta Entrenamiento', 42000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Conjunto de Invierno Niño</h3>
+            <p>$55.000</p>
+            <button onclick="agregar('Conjunto Invierno Niño', 55000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Conjunto de Invierno Adulto</h3>
+            <p>$60.000</p>
+            <button onclick="agregar('Conjunto Invierno Adulto', 60000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Conjunto Rompeviento Adulto</h3>
+            <p>$85.000</p>
+            <button onclick="agregar('Conjunto Rompeviento', 85000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Buzo Deportivo</h3>
+            <p>$37.000</p>
+            <button onclick="agregar('Buzo Deportivo', 37000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Campera de Invierno</h3>
+            <p>$65.000</p>
+            <button onclick="agregar('Campera Invierno', 65000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Campera Rompeviento</h3>
+            <p>$70.000</p>
+            <button onclick="agregar('Campera Rompeviento', 70000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Buzo Original</h3>
+            <p>$60.000</p>
+            <button onclick="agregar('Buzo Original', 60000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Campera Rompeviento Original</h3>
+            <p>$100.000</p>
+            <button onclick="agregar('Campera Rompeviento Original', 100000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Camiseta NHL</h3>
+            <p>$165.000</p>
+            <button onclick="agregar('Camiseta NHL', 165000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Camiseta Jockey Nacional</h3>
+            <p>$20.000</p>
+            <button onclick="agregar('Camiseta Jockey Nacional', 20000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Campera Deportiva Adidas</h3>
+            <p>$40.000</p>
+            <button onclick="agregar('Campera Adidas', 40000)" class="btn">Agregar al carrito</button>
+        </div>
+
+        <div class="card">
+            <h3>Medias Argentina</h3>
+            <p>$3.000</p>
+            <button onclick="agregar('Medias Argentina', 3000)" class="btn">Agregar al carrito</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer">
+
+        <img src="assets/logos/logo.png" alt="CALCA">
+
+        <h3>CALCA Indumentaria</h3>
+
+        <p>TechGame27</p>
+
+    </div>
+
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/menu.js"></script>
+
+</body>
+</html>
