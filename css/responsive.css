@@ -1,0 +1,126 @@
+/* ==========================================
+   RESPONSIVE - TechGame27 + CALCA
+========================================== */
+
+/* Tablets */
+
+@media (max-width: 1024px) {
+
+    .hero h1{
+        font-size:3rem;
+    }
+
+    .hero p{
+        font-size:1.1rem;
+    }
+
+    .cards{
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+    }
+
+}
+
+
+/* Celulares */
+
+@media (max-width:768px){
+
+    .navbar{
+        padding:15px 20px;
+        position:relative;
+    }
+
+    .navbar ul{
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        background:#0d1117;
+        padding:20px 0;
+        text-align:center;
+        box-shadow:0 10px 30px rgba(0,0,0,.4);
+        z-index:999;
+    }
+
+    .navbar ul.active{
+        display:flex;
+    }
+
+    .navbar ul li{
+        margin:15px 0;
+    }
+
+    .menu-mobile{
+        display:block;
+        font-size:2rem;
+        cursor:pointer;
+        color:#ffffff;
+    }
+
+    .hero{
+        padding:100px 20px;
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:2.3rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        align-items:center;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+        padding:20px;
+    }
+
+    .review{
+        margin-bottom:20px;
+    }
+
+    .brand-list{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+    }
+
+    footer{
+        text-align:center;
+    }
+
+}
+
+
+/* Celulares pequeños */
+
+@media (max-width:480px){
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .hero p{
+        font-size:.95rem;
+    }
+
+    .btn{
+        width:100%;
+        max-width:280px;
+    }
+
+    .logo img{
+        width:150px;
+    }
+
+}

@@ -1,0 +1,73 @@
+/* ===========================
+   ANIMACIONES - CALCA
+=========================== */
+
+@keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes zoom {
+    from { opacity: 0; transform: scale(.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes brillo {
+    0% { box-shadow: 0 0 5px rgba(0,102,255,.3); }
+    50% { box-shadow: 0 0 20px rgba(0,102,255,.8); }
+    100% { box-shadow: 0 0 5px rgba(0,102,255,.3); }
+}
+
+/* HERO */
+.hero h1 { animation: fadeDown 1s ease; }
+.hero p { animation: fadeUp 1.2s ease; }
+.hero-buttons { animation: zoom 1.4s ease; }
+
+/* CARDS */
+.card {
+    animation: aparecer .8s ease;
+    transition: .35s;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+/* BOTONES */
+.btn {
+    transition: .3s;
+}
+
+.btn:hover {
+    animation: brillo 1.2s infinite;
+    transform: scale(1.05);
+}
+
+/* LOGO */
+.logo img {
+    transition: .4s;
+}
+
+.logo img:hover {
+    transform: rotate(-2deg) scale(1.05);
+}
+
+/* NAVBAR */
+.navbar {
+    animation: aparecer .8s ease;
+}
+
+/* FOOTER */
+.footer {
+    animation: fadeUp 1s ease;
+}
